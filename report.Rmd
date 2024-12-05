@@ -1,5 +1,22 @@
-#Introduction
+# Affect of Mental Health on Technology Usage
+
+## Introduction
+
 This is where I will introduce my topic
 
-#Summary of my results 
-This is where I will summarize my findings
+## Summary of results
+
+![](./figures/tech_hours_density.png) The above figure displays the distribution of technology usage hours in this data set. We would expect the data to approximate to a normal distribution, however, the above figure displays a uniform distribution. Given this unusual result, we created a box plot to check for normality of the data.
+
+![](./figures/Tech_boxplot.png)
+
+Using the same data, we created box plots of technology usage hours based on mental health statuses Across each of the mental health status groups (excellent, fair, good, and poor), we see that the average technology usage is the same.
+
+![](./figures/sm_density.png) For comparison, we created another density curve for social media usage hours. We notice a similar trend where the data shows a uniform distribution instead of approximating to a normal distribution. Additionally, we compared the average social media usage hours across all groups of reported stress level (low, medium, high). The average social media usage hours was almost equal across all stress level groups. ![](./figures/SM_boxplot.png)
+
+![](./figures/gaming_hist.png)
+Similarly, the histogram for gaming hours also displays a uniform distribution. This further proves that the data is unnatural and analysis of this data will result in an invalid conclusion. 
+
+## Conclusion
+
+Based on the patterns that we have noted in this data set, we can conclude that this data is unnatural given how we typically expect data to behave. It is unnatural for average technology use hour and social media use hours to be equal across all variable groups. Additionally, given the large sample size, it is unusual for the data to not approximate to a normal distribution.
