@@ -8,4 +8,4 @@ tech_hours_density<-ggplot(data, aes(Technology_Usage_Hours)) +
        x= "Technology Usage Hours", y="Density")
 plot(tech_hours_density)
 ensure_directory("figures")
-ggsave("~/project/figures/tech_hours_density.png")
+ggsave("~/project/bios611/figures/tech_hours_density.png")

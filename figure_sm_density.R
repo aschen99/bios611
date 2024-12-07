@@ -7,5 +7,5 @@ sm_density<-ggplot(data, aes(Social_Media_Usage_Hours)) + geom_density() +
        x= "Social Media Usage Hours", y="Density")
 plot(sm_density)
 ensure_directory("figures")
-ggsave("~/project/figures/sm_density.png")
+ggsave("~/project/bios611/figures/sm_density.png")
 
